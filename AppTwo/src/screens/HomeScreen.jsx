@@ -177,10 +177,13 @@ const styles = StyleSheet.create({
     marginRight: 15,
     marginTop: 15,
     padding: 10,
-    shadowColor: "#000",
-    shadowOpacity: 0.7,
-    shadowRadius: 10,
-    elevation: 4,
+   //    shadowColor: "#000",
+  // shadowOffset: { width: 0, height: 2 },
+  // shadowOpacity: 0.15,
+  // shadowRadius: 4,
+
+  // Androisd shadow
+  elevation: 1,
   },
 
   cardImage: {
