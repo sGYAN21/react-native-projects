@@ -41,7 +41,6 @@ const ChatScreen = () => {
       <View style={styles.center}>
         <GradientText text="Hello, Daksh" style={styles.greeting} />
       </View>
-
       <View style={styles.inputWrapper}>
         <View style={styles.inputBox}>
           <TextInput
