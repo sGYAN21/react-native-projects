@@ -25,7 +25,6 @@ const GetStartedScreen = () => {
     </View>
   );
 };
-
 export default GetStartedScreen;
 
 const styles = StyleSheet.create({
