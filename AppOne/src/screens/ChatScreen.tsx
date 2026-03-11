@@ -55,6 +55,7 @@ const ChatScreen = () => {
         <Text style={styles.footerText}>
           Gemini can make mistakes, so double-check it.
         </Text>
+        
       </View>
     </SafeAreaView>
   );
