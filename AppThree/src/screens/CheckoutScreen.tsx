@@ -16,7 +16,6 @@ import { useNavigation } from '@react-navigation/native';
 const CheckoutScreen = () => {
 
     const navigation = useNavigation<any>();
-
     return (
         <SafeAreaView style={styles.container}>
          
