@@ -59,7 +59,6 @@ const CheckoutScreen = () => {
                         <Text style={styles.cardNumber}>{method.number}</Text>
                     </TouchableOpacity>
                 ))}
-
                 {/* Action Button */}
                 <TouchableOpacity style={styles.continueButton}>
                     <Text style={styles.continueText}>Continue</Text>
