@@ -43,8 +43,7 @@ export default function GetStarted() {
                         <TouchableOpacity
                             activeOpacity={0.9}
                             style={styles.button}
-                          onPress={() => navigation.navigate('home')}
-                        >
+                          onPress={() => navigation.navigate('home')}>
                             <Text style={styles.buttonText}>Get Started</Text>
                         </TouchableOpacity>
                     </View>
