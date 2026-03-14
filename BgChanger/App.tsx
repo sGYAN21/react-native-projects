@@ -13,8 +13,7 @@ function App(): JSX.Element {
     let color= "#"
 
     for (let i = 0; i < 6; i++) {
-      color += hexRang[Math.floor(Math.random()*16)];
-      
+      color += hexRang[Math.floor(Math.random()*16)];   
     }
     setRandomBackground(color);
   }
