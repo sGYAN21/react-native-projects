@@ -23,7 +23,6 @@ import { StatItem } from '../components/StatItem';
 
 const ProfileScreen = () => {
   const navigation = useNavigation();
-
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView showsVerticalScrollIndicator={false}>
